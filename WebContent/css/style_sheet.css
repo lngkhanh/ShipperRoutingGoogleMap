@@ -1,0 +1,123 @@
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+#container {
+	margin: 0px auto;
+}
+
+.sidebar {
+	float: left; /*Nằm bên trái*/
+	width: 400px; /*Rộng 300px*/
+	/* background:#c0c0c0; */
+}
+
+#directions-panel {
+	background-color: #D0CEC2;
+	padding-left: 10px;
+}
+
+.content {
+	width: 935px;
+	height: 560px;
+	float: right;
+	border: 2px solid #808080;
+}
+
+#footer {
+	font-family: monospace;
+	background: gray;
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#danhsachdiachi {
+	display: none;
+}
+
+.clear {
+	clear: both
+}
+
+#btRefresh {
+	padding-left: 20px;
+	width: 30px;
+	height: 30px;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+#btEdit {
+	padding-left: 20px;
+	width: 30px;
+	height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#btSearch {
+	padding-left: 20px;
+	width: 30px;
+	height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* #thongtin_address { //
+	position: absolute; //
+	float: left; //
+	font-size: 18px; //
+	padding-left: 50px; //
+	font-family: monospace; //
+	padding-top: 250px;
+} */
+#homeview {
+	/* background-image: url("../images/bg.jpg"); */
+	background-color: #808080;
+}
+
+#floating-panel {
+	position: absolute;
+	top: 630px;
+	left: 50%;
+	padding: 5px;
+}
+
+#loginView_form {
+	margin-left: 40%;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.myButton {
+	background-color: #ededed;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #d6bcd6;
+	display: inline-block;
+	cursor: pointer;
+	color: #080808;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 5px 21px;
+	text-decoration: none;
+}
+
+.myButton:hover {
+	background-color: #bab1ba;
+}
+
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+#contentTable {
+	font-size: 18px;
+	color: white;
+}
